@@ -101,6 +101,7 @@ if st.session_state.openai_api_key:
             {
                 "model": "gpt-4o-mini",
                 "api_key": st.session_state.openai_api_key,
+                "base_url":"https://api.chatanywhere.tech/v1",
             },
         ]
 
@@ -108,6 +109,7 @@ if st.session_state.openai_api_key:
             {
                 "model": "gpt-4o-mini",
                 "api_key": st.session_state.openai_api_key,
+                "base_url":"https://api.chatanywhere.tech/v1",
             },
         ]
 
